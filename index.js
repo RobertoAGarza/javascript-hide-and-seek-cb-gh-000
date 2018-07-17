@@ -4,8 +4,7 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  const main = document.getElementById('app')
-  const nested = main.getElementById('#').target
+  const main = document.getElementById('app').getElementById('#').target
 
-  return nested
+  return main
 }
