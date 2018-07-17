@@ -7,5 +7,5 @@ function nestedTarget(){
   const main = document.getElementById('app')
   const nested = main.getElementById('#').target
 
-  return target
+  return nested
 }
